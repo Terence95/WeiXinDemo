@@ -48,6 +48,7 @@
 		5129003F1BE89E5D00C2FD87 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5129003E1BE89E5D00C2FD87 /* SearchViewController.m */; };
 		512900421BE8B07F00C2FD87 /* HistroryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512900411BE8B07F00C2FD87 /* HistroryViewController.m */; };
 		512900451BE8B37700C2FD87 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512900441BE8B37700C2FD87 /* ThreeViewController.m */; };
+		5A40E4FF1BE8D8E0003E40E6 /* data.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A40E4FE1BE8D8E0003E40E6 /* data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,8 @@
 		512900411BE8B07F00C2FD87 /* HistroryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistroryViewController.m; sourceTree = "<group>"; };
 		512900431BE8B37700C2FD87 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
 		512900441BE8B37700C2FD87 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		5A40E4FD1BE8D8E0003E40E6 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		5A40E4FE1BE8D8E0003E40E6 /* data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				435CED0B1BE8530C001D67EB /* Images.xcassets */,
 				435CED0D1BE8530C001D67EB /* LaunchScreen.xib */,
 				435CECFE1BE8530C001D67EB /* Supporting Files */,
+				5A40E4FD1BE8D8E0003E40E6 /* data.h */,
+				5A40E4FE1BE8D8E0003E40E6 /* data.m */,
 			);
 			path = WeiXinDemo;
 			sourceTree = "<group>";
@@ -433,6 +438,7 @@
 				435CED041BE8530C001D67EB /* AppDelegate.m in Sources */,
 				5129003F1BE89E5D00C2FD87 /* SearchViewController.m in Sources */,
 				512900361BE8921000C2FD87 /* FindViewController.m in Sources */,
+				5A40E4FF1BE8D8E0003E40E6 /* data.m in Sources */,
 				512900421BE8B07F00C2FD87 /* HistroryViewController.m in Sources */,
 				435CED011BE8530C001D67EB /* main.m in Sources */,
 				5129003C1BE89C1F00C2FD87 /* WXNavigationController.m in Sources */,
