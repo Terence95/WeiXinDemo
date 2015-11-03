@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WXTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //.1初始化windows
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //2.设置背景色
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //3.创建uitabber
+    WXTabBarController* tabbarVC = [[WXTabBarController alloc] init];
+    
+    //4. 设置根控制器
+    self.window.rootViewController = tabbarVC;
+    
+    //5.显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
